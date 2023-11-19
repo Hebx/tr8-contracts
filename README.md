@@ -78,12 +78,12 @@ Example hook contracts were deployed only to the "home chain", Optimism:
 - `TR8HookNFTClaimer` contract: `0x9F570E88B5CDef206d2633aA3278ac5bceCd4cD8`: [Optimism](https://goerli-optimism.etherscan.io/address/0x9F570E88B5CDef206d2633aA3278ac5bceCd4cD8)
 - `TR8HookNeedEth` contract: `0x4a62d7B300b505e44066E51B0b635ddb5044955d`: [Optimism](https://goerli-optimism.etherscan.io/address/0x4a62d7B300b505e44066E51B0b635ddb5044955d)
 
-## SuperHack 2023 Hackathon
-
-TR8 Protocol was built during the ETHGlobal Superhack hackathon. The follow sponsor technology was used:
+## Sponsors
 
 - *Ethereum Attestation Service (EAS)*: EAS is the foundation upon which TR8 has been built. It is the base layer for TR8 Protocol. [#](https://github.com/tr8-protocol/tr8-contracts/blob/main/contracts/TR8.sol#L85) [#](https://github.com/tr8-protocol/tr8-contracts/blob/main/contracts/TR8.sol#L172) [#](https://github.com/tr8-protocol/tr8-api/blob/main/functions/tr8/index.js#L31)
 - *Optimism*: The home chain for TR8 protocol is Optimism, where all attestations and TR8 drops happen. TR8 Protocol is intended to be a permissionless public good. See OP deplyed addresses above. [#](https://github.com/tr8-protocol/tr8-contracts/blob/main/test/index.js#L22)
 - *Base*: TR8 Protocol NFTs can be moved between OP Stack chain and has been deployed to Base. See Base deployed addresses above [#](https://github.com/tr8-protocol/tr8-contracts/blob/main/test/index.js#L29) 
 - *Zora*: TR8 Protocol NFTs can be moved between OP Stack chain and has been deployed to Zora. See Zora deployed addresses above [#](https://github.com/tr8-protocol/tr8-contracts/blob/main/hardhat.config.js#L569) 
 - *LayerZero*. Cross-chain transportation of TR8s is provided by LayerZero General Message Passing (GMP) [#](https://github.com/tr8-protocol/tr8-contracts/blob/main/contracts/TR8Transporter.sol#L48)
+- *Arbitrum*: Another home chain for TR8 protocol, where all attestations and TR8 drops happen. TR8 Protocol is intended to be a permissionless public good. See Arb deployed addresses above. [#](https://github.com/hebx/tr8-contracts/blob/main/test/index.js#L43)
+- *Scroll*: TR8 Protocol NFTs has been deployed to Scroll. See Scroll deployed addresses above [#](https://github.com/hebx/tr8-contracts/blob/main/test/index.js#L36) 
