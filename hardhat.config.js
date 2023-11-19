@@ -59,7 +59,17 @@ module.exports = {
       gasMultiplier: 10,
       gasPrice: 1000000000 * 1,
       blockGasLimit: 0x1fffffffffffff
-    }
+    },
+    scrollTestnet: {
+      url: process.env.API_URL_SCROLLSEPOLIA || "",
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
+    arbitrumGoerli: {
+      url: process.env.API_URL_ARBITRUMGOERLI || "",
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
   },
    etherscan: {
     apiKey: {

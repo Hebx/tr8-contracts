@@ -1,7 +1,7 @@
 const chain = hre.network.name;
 
 var addr = {};
-if (chain == "optimisticGoerli") {
+if (chain == "arbitrumGoerli") {
   addr.AIrtist = "0x6a531B4447fB07b10A39E99Fc25b9c2cA63eAA42";  // AIrtist NFT contract
 }
 

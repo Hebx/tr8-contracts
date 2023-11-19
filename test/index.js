@@ -32,11 +32,27 @@ if (chain == "baseGoerli") {
   addr.eas = "0xAcfE09Fd03f7812F022FBf636700AdEA18Fd2A7A";
   addr.tr8 = "0xC3b0c31C16D341eb09aa3698964369D2b6744108";
   addr.transporter = "0x54C9935e58141cc5b1B4417bb478C7D25228Bfc0";
-}
+} //
+if (chain == "scrollSepolia") {
+    addr.lzEndpoint = "0x6098e96a28E02f27B1e6BD381f870F1C8Bd169d3";
+    addr.chainId = 10214;
+    addr.eas = "0x14B154555b396D3446e771258F6555a9D9142cC4";
+    addr.tr8 = "0x80cD748d3AaE57b6272CCB32D0C514543443De35";
+    addr.transporter = "0xadf540E503C8d313995621B43123C7bd2c874996";
+  }
+if (chain == "arbitrumGoerli") {
+    addr.lzEndpoint = "0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab";
+    addr.chainId = 10143;
+    addr.eas = "0x14B154555b396D3446e771258F6555a9D9142cC4";
+    addr.tr8 = "0x80cD748d3AaE57b6272CCB32D0C514543443De35";
+    addr.transporter = "0xadf540E503C8d313995621B43123C7bd2c874996";
+  }
 
 var dstChainIds = {
     "optimisticGoerli": 10132,
-    "baseGoerli": 10160
+    "baseGoerli": 10160,
+    "scrollSepolia": 10160,  //
+    "arbitrumSepolia": 10160
 };
 
 const dropSchemaUid = "0xbc6da0b0e818da22c205bca49549ecd10cd57015b43230cb5a6d8082f4a0cbd7";

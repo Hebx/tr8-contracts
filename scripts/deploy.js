@@ -21,6 +21,16 @@ if (chain == "zoraGoerli") {
     addr.chainId = 999; // evm chainId, as Zora not supported on LayerZero
     addr.eas = "0x29C691bb067Ab73B2280062AF4401ED36E860CD4";
 }
+if (chain == "scrollTestnet") {
+    addr.lzEndpoint = "0x6098e96a28E02f27B1e6BD381f870F1C8Bd169d3";
+    addr.chainId = 10214;
+    addr.eas = "0xAcfE09Fd03f7812F022FBf636700AdEA18Fd2A7A";
+}
+if (chain == "arbitrumGoerli") {
+  addr.lzEndpoint = "0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab";
+  addr.chainId = 10143;
+  addr.eas = "0xAcfE09Fd03f7812F022FBf636700AdEA18Fd2A7A";
+}
 
 async function main() {
     const accounts = await ethers.getSigners();
